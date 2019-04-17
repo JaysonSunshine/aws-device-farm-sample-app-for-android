@@ -7,5 +7,5 @@ phases:
       - ./gradlew assembleDebug
 artifacts:
   files:
-     - '$CODEBUILD_SRC_DIR/android/app/build/outputs/**/*.apk'
+     - '**/*'
   discard-paths: yes
